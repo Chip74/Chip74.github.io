@@ -1,0 +1,74 @@
+/****** Elad Shechter's RESET *******/
+/* box sizing border-box for all elements */
+*,
+*::before,
+*::after { box-sizing:border-box; }
+
+a { text-decoration:none; color:inherit; cursor:pointer; }
+button { background-color:transparent; color:inherit; border-width:0; padding:0; cursor:pointer; }
+figure{ margin:0; }
+ul, ol, dd { margin:0; padding:0; list-style:none; }
+h1, h2, h3, h4, h5, h6
+p { margin:0; }
+cite { font-style:normal; }
+fieldset { border-width:0; padding:0; margin:0; }
+
+
+body{
+    font-family: 'Inconsolata', monospace;
+    font-size: inherit;
+    background-image: var(--MainBackgroundPatter) ;
+}
+
+header{
+    background-color: var(--DarkColor);
+    color: var(--LightColor);
+    padding: 5%
+    backgound-position: left;
+    transition: all 1s
+}
+header>h1{
+    
+    font-family: 'Great Vibes', cursive;
+    font-size: xx-large;
+    text-align: center;
+}
+
+aside{
+    background-color: beige;
+}
+header>h1{
+    text-align: center;
+    background-color: royalblue;
+}
+header>h2{
+    text-align: center;
+    background-color: royalblue;
+}
+header>h3{
+    text-align: center;
+    background-color: royalblue;
+    padding: 1%;
+ }
+
+ main{
+    display: flex;
+    flex-direction: row;
+
+ }
+ main> {
+    padding:10%
+ }
+
+ main{
+    background-color: burlywood;
+ }
+
+
+
+
+
+
+
+
+
