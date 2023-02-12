@@ -13,47 +13,32 @@ p { margin:0; }
 cite { font-style:normal; }
 fieldset { border-width:0; padding:0; margin:0; }
 
-
-body{
-    font-family: 'Inconsolata', monospace;
-    font-size: inherit;
-    background-image: var(--MainBackgroundPatter) ;
-}
-
-header{
-    background-color: var(--DarkColor);
-    color: var(--LightColor);
-    padding: 5%
-    backgound-position: left;
-    transition: all 1s
-}
 header>h1{
     
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Quintessential', cursive;
     font-size: xx-large;
     text-align: center;
+   
 }
 
 aside{
     background-color: beige;
+    font-family: 'Quintessential', cursive;
+    font-size: large;
+    border-radius: 10px;
+    
+
 }
 header>h1{
-    text-align: center;
+       text-align: center;
     background-color: royalblue;
+   border-radius: 20px;
 }
-header>h2{
-    text-align: center;
-    background-color: royalblue;
-}
-header>h3{
-    text-align: center;
-    background-color: royalblue;
-    padding: 1%;
- }
-
+    
  main{
     display: flex;
     flex-direction: row;
+    border-radius: 30px
 
  }
  main> {
@@ -62,6 +47,8 @@ header>h3{
 
  main{
     background-color: burlywood;
+    font-family: 'Quintessential', cursive;
+
  }
 
 
