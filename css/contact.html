@@ -1,0 +1,51 @@
+<!DOCTYPE>
+<html lang="en">
+    <head>
+       <title>Contact Us</title>
+        <style>
+
+            form input:invalid{
+                background-color: lightcoral;
+            }
+            form input:valid{
+                background-color: lightgreen;
+            }
+            form ul{
+                list-style-type: none;
+                width: 25rem;
+            }
+            form ul>li{
+                display: flex;
+                flex-direction: column;
+            }
+            form ul>li>input{
+                justify-self: left;
+
+            }
+
+            
+        </style>
+    </head>
+<body>
+    <form action="#" method="get" id="formOne">
+    <fieldset>
+        <legend>Personal Information</legend>
+        <ul>
+            <li><label for="username">Desired User Name:</label>
+        <input id="username" name="username" type="text"></li>
+            <li><label for="password">Desired Password:</label>
+        <input id="password" name="password"></li>
+        <li><label for="startDate">Start Date:</label>
+        <input id="startDate" name="startDate" type="date"></li>
+        </ul>
+    </fieldset>
+    <label for="contactPreference">Please contact me</label>
+    <datalist name="contactPreference" id="contactPreference" multiple>
+        <option value="yes"></option>
+        <option value="no"></option>
+        </datalist>
+       <input type="text" list="contactPreference" name="myContactPreference">
+    </form>
+        <button type="submit" form="formOne">Send the date</button>
+</body>
+</html>
